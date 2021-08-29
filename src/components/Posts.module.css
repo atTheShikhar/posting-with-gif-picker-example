@@ -1,0 +1,27 @@
+.container {
+  width: 98%;
+  margin: auto;
+}
+
+.postContainer {
+  box-shadow: 0px 1px 2px 1px rgba(80, 80, 80, 0.2);
+  border: solid 1px rgb(235, 235, 235);
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+}
+.postText {
+  font-size: 22px;
+  color: var(--font-color);
+}
+.postImage {
+  display: block;
+  margin: 15px auto;
+  border-radius: 10px;
+  width: 100%;
+}
+.noPost {
+  text-align: center;
+}

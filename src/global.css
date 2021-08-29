@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary: rgb(0, 0, 160);
+  --primary-diabled: rgb(120, 120, 255);
+  --font-color: rgb(105, 105, 105);
+  --bg-color: rgb(249, 252, 255);
+  --bg-color-button: aliceblue;
+  --bg-color-button-hover: rgb(245, 245, 245);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cabin', sans-serif;
+  background-color: var(--bg-color);
+}
